@@ -1,0 +1,52 @@
+/*global*/
+html{
+    font-size: 62.5%;/*1rem=10px*/
+}
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+p{
+    font-size: 1.6rem;
+    line-height: 2;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/*utlities*/
+.container{
+    width: 70%;
+    margin: 0 auto 0 auto
+}
+
+/*header*/
+header.site-header{
+    background-image: url(../img/header.jpg);
+    height: 50vh;
+    background-position: top center;
+    background-size: cover;
+}
+header.site-header h1{
+    font-size: 3.5rem;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header.site-header p{
+    color: white;
+}
+nav.menu a{
+    color: white;
+    font-size: 1.6rem;
+}
+
+/*main*/
+.about-us h2{
+    font-size: 3rem;
+}
+.about-item h3{
+    font-size: 2rem;
+}
